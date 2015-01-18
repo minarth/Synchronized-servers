@@ -24,7 +24,8 @@ Servers must save data on hard-drive, so they can be restored when everything is
 
 Communication between client and servers are build on TCP sockets. Communication protocols are designed by you. You can assume synchronized system time on servers.
 
-Running server
+### Running server
 	server <PORT> <SECOND-SERVER-PORT≥ <SECOND-SERVER-ADDRESS>
-Running client
+
+### Running client
 	client <SERVER-PORT> <SERVER-ADDRESS> <BACKUP-SERVER-PORT> <BACKUP-SERVER-ADDRESS>
